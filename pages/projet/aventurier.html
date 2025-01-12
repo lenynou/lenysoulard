@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="../../ressources/css/style.css">
+    <title>Les aventuriers du rail</title>
+    <link rel="icon" type="image/png" href="../../ressources/img/ls.png">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <meta name="viewport" content="width=device-width user-scalable=no, initial-scale=1.0, maximum-scale=1.0"/>
+</head>
+<body>
+    <header>
+        <div>
+            <a href="../../index.html" >
+                <img src="../../ressources/img/ls.png" alt="logo" id="logo">
+            </a>
+            <nav>
+                <button class="nav-items cursor-pointer" type="button" onclick="window.location.href='../profile/profile.html'">
+                    <img src="../../ressources/img/utilisateur.png" alt="">
+                    Profil
+                </button>
+                <button  class="nav-items cursor-pointer" type="button" onclick="window.location.href='projets.html'">
+                    <img src="../../ressources/img/projet.png" alt="">
+                    Mes projets
+                </button>
+                <button class="nav-items cursor-pointer" type="button" onclick="window.location.href='../profile/cv.html'">
+                    <img src="../../ressources/img/embauche.png" alt="">
+                    CV
+                </button>
+                <button class="nav-items cursor-pointer" type="button" onclick="window.location.href='../profile/competence.html'">
+                    <img src="../../ressources/img/apprentissage.png" alt="">
+                    Portfolio d'apprentissage
+                </button>
+            </nav>
+        </div>
+    </header>
+    <main class="flex-column">
+        <div class="flex">
+            <aside>
+                <a class="pt-[6px] pb-[3px] pe-[5px]" href="https://www.linkedin.com/in/leny-soulard" target="_blank"><img src="../../ressources/img/linkedin.png" alt="Linkedin"></a>
+                <a class="pt-[6px] pb-[3px] pe-[5px]" href="mailto:leny.soulard@etu.umontpellier.fr"><img src="../../ressources/img/mailn.png" alt="Mail"></a>
+                <a class="pt-[6px] pb-[3px] pe-[5px]" href="https://gitlabinfo.iutmontp.univ-montp2.fr/soulardl" target="_blank"><img src="../../ressources/img/gitlab.png" alt="Gitlab"></a>
+            </aside>
+            <section class="section_pageprojet">
+                <div class="flex flex-wrap justify-between">
+                    <div class="w-full mb-4 md:mb-auto md:w-1/2">
+                        <h3 class="font-bold text-lg mb-3">Les aventuriers du rail: autour du monde :</h3>
+                        <div>
+                            <p class="text-justify">
+                                Les aventuriers du rail: autour du monde est un jeu de societe avec un grand plateau. Dans le cadre de mon BUT Informatique,
+                                durant ma premiere année, j'ai du adapter ce jeu en version numerique en binome. Dans un premier temps, nous avons réalisé toutes les mecaniques
+                                du jeu pour pouvoir jouer au jeux à 4 joueur. Dans un second temps, nous avons du réaliser la partie graphique du jeu afin que jouer au jeux soit
+                                aussi simple que dans la réalité.
+                            <br>
+                            <br>
+                                Ce projet était mon premier en programmation orienté objet et m'a fait voir comment on pouvait adapter un jeu numeriquement.
+                                Le fait de travailler en binome m'a beaucoup aidé car nous nous entraidions et avançions ensemble.
+                                Nous avons conçu ce jeu en java et pour la partie graphique nous avons utilisé JavaFx qui m'a fait découvrir comment on pouvait passer du code
+                                a quelque chose de visuel comme toute les applications que nous utilisons au quotidient.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="w-full md:w-5/12 my-auto">
+                        <img class="boxshadow" src="../../ressources/img/setupRailsIHM.png" alt="Image setup Aventuriers du rail">
+                        <p class="w-fit">Les parametres de debut de partie</p>
+                    </div>
+                </div>
+                <div class="w-full md:w-10/12 mt-10 mx-auto">
+                    <img class="boxshadow" src="../../ressources/img/plateauRailsIHMneutre.png" alt="Image plateau Aventurier du Rails">
+                    <p class="w-fit">Le plateau de jeu</p>
+                </div>
+            </section>
+        </div>
+        <section id="section-competence">
+            <h3 class="font-bold text-lg mb-3">Les compétences mobilisés dans ce projet :</h3>
+            <div id="competence_column">
+                <div id="competence_row">
+                    <div class="competence-items shadow-lg">
+                        <h4 class="font-bold my-[21px]">AC 2 Elaborer des conceptions simples</h4>
+                        <h5 class="my-[20px]">Niveau de maitrise : Acquis</h5>
+                        <p class="my-3">Ex : réaliser une maquette de l'affichage pour concevoir et avoir un aperçu simple de l'application. </p>
+                    </div>
+                    <div class="competence-items shadow-lg">
+                        <h4 class="font-bold my-[21px]">AC 1 Implémenter des conceptions simples</h4>
+                        <h5 class="my-[20px]">Niveau de maitrise : Acquis</h5>
+                        <p class="my-3">Ex : réaliser une maquette de l'affichage pour concevoir et avoir un aperçu simple de l'application. </p>
+                    </div>
+                    <div class="competence-items shadow-lg">
+                        <h4 class="font-bold my-[21px]">AC 4 Vérifier et valider la qualité de l'application par les tests</h4>
+                        <h5 class="my-[20px]">Niveau de maitrise : Acquis</h5>
+                        <p class="my-3">Nous avons réalisé une batterie de tests pour chaque fonctionnalité du jeux. </p>
+                    </div>
+                    <div class="competence-items shadow-lg">
+                        <h4 class="font-bold my-[21px]">AC 3 Formaliser et mettre en œuvre des outils mathématiques pour l'informatique</h4>
+                        <h5 class="my-[20px]">Niveau de maitrise : Acquis</h5>
+                        <p class="my-3">Nous avons utilisé des outils mathematiques pour le calcul du plus court chemin entre 2 destinations. </p>
+                    </div>
+                    <div class="competence-items shadow-lg">
+                        <h4 class="font-bold my-[21px]">AC 4 Acquérir les compétences interpersonnelles pour travailler en équipe</h4>
+                        <h5 class="my-[20px]">Niveau de maitrise : Acquis</h5>
+                        <p class="my-3">Nous avons beaucoup communiqué et collaboré ensemble pour réaliser ce projet.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer class="mb-3">
+        <H3>Website by Soulard Lény</H3>
+    </footer>
+</body>
+</html>

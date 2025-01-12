@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="../../ressources/css/style.css">
+    <title>Stage</title>
+    <link rel="icon" type="image/png" href="../../ressources/img/ls.png">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <meta name="viewport" content="width=device-width user-scalable=no, initial-scale=1.0, maximum-scale=1.0"/>
+</head>
+<body>
+    <header>
+        <div>
+            <a href="../../index.html" >
+                <img src="../../ressources/img/ls.png" alt="logo" id="logo">
+            </a>
+            <nav>
+                <button class="nav-items cursor-pointer" type="button" onclick="window.location.href='../profile/profile.html'">
+                    <img src="../../ressources/img/utilisateur.png" alt="">
+                    Profil
+                </button>
+                <button  class="nav-items cursor-pointer" type="button" onclick="window.location.href='projets.html'">
+                    <img src="../../ressources/img/projet.png" alt="">
+                    Mes projets
+                </button>
+                <button class="nav-items cursor-pointer" type="button" onclick="window.location.href='../profile/cv.html'">
+                    <img src="../../ressources/img/embauche.png" alt="">
+                    CV
+                </button>
+                <button class="nav-items cursor-pointer" type="button" onclick="window.location.href='../profile/competence.html'">
+                    <img src="../../ressources/img/apprentissage.png" alt="">
+                    Portfolio d'apprentissage
+                </button>
+            </nav>
+        </div>
+    </header>
+    <main class="flex-column">
+        <div class="flex">
+            <aside>
+                <a class="pt-[6px] pb-[3px] pe-[5px]" href="https://www.linkedin.com/in/leny-soulard" target="_blank"><img src="../../ressources/img/linkedin.png" alt="Linkedin"></a>
+                <a class="pt-[6px] pb-[3px] pe-[5px]" href="mailto:leny.soulard@etu.umontpellier.fr"><img src="../../ressources/img/mailn.png" alt="Mail"></a>
+                <a class="pt-[6px] pb-[3px] pe-[5px]" href="https://gitlabinfo.iutmontp.univ-montp2.fr/soulardl" target="_blank"><img src="../../ressources/img/gitlab.png" alt="Gitlab"></a>
+            </aside>
+            <section class="section_pageprojet">
+                <div>
+                    <div class="main-text grid grid-cols-2 row-auto gap-10">
+                        <div class="w-full ">
+                            <h3 class="font-bold text-lg mb-3">Stage au laboratoire Epsylon</h3>
+                        <p class="w-full text-justify">
+                            Mon stage de deuxième année de BUT Informatique s'est déroulé au laboratoire Epsylon, à Montpellier.
+                            J'ai travaillé sur un projet de recherche en psychologie, en collaboration avec des chercheurs et des doctorants.
+                            Durant ce stage, j'ai eu l'occasion de mettre en pratique mes compétences en développement web et d'en acquérir de nouvelles grâce 
+                            au projet sur lequel j'ai travaillé. L'objectif était de créer une application web pour faciliter la collecte de données dans le 
+                            cadre d'une étude sur les dilemmes moraux et les IA.
+                        </p>
+                        </div>
+                        <div>
+                            <h3 class="font-bold text-lg mb-3">Objectifs du projet</h3>
+                            <p class="w-full text-justify">
+                                L'application devait permettre aux participants de l'étude de répondre à des dilemmes moraux, tout en collectant des données 
+                                sur leurs réponses. Les fonctionnalités principales étaient :
+                            </p>
+                            <ul class="list-disc ps-[40px] my-[16px] text-justify">
+                                <li>Pouvoir répondre à une série de dilemmes.</li>
+                                <li>Pouvoir stocker des informations commes le temps de réponses.</li>
+                                <li>Avoir un panel administrateur afin de gérer les dilemmes et avoir des statistiques sur les réponses.</li>
+                            </ul>
+                            <p class="w-full text-justify">
+                               Le but finale étant de récolter des données afin de les analyser et de les utiliser pour des recherches en psychologie.
+                            </p>
+                        </div>
+                        <div >
+                            <img src="../../ressources/img/gestionDilemmes.png" class="shadow-md" alt="Image de la page de la gestion des dilemmes">
+                            <p class="w-2/3">La page de gestion des dilemmes</p> 
+                        </div>
+                        <div class=" mx-auto">
+                            <img src="../../ressources/img/statsDilemmes.png" class="shadow-md" alt="Image de la page des statistiques">
+                            <p class="w-2/3">La page des statistiques</p> 
+                        </div>
+                        <div>
+                            <h3 class="font-bold text-lg mb-3">Organisation et technologies utilisées</h3>
+                            <p class="w-full text-justify">
+                                J'ai réalisé ce projet tout seul, en suivant une méthode agile pour gérer le développement.
+                                Etant le seul informaticien de l'équipe, j'ai eu une grande liberté sur le choix des technologies, et j'ai choisi d'utiliser :
+
+                                Nous avons réalisé ce projet en équipe de quatre personnes, en adoptant une méthode agile pour gérer le développement. 
+                                Une grande liberté technologique nous a été accordée, et nous avons choisi d'utiliser :
+                            </p>
+                            <ul class="list-disc ps-[40px] my-[16px] text-justify">
+                                <li>Node.js avec Express.js pour le back-end.</li>
+                                <li>HTML, CSS et JavaScript pour le front-end.</li>
+                            </ul>
+                            <p class="w-full text-justify">
+                                J'ai pu découvrir comment réaliser un back-end en Node.js, et affin de faire les maquettes et le front-end, j'ai utilisé Figma.
+                                Figma est un outil de design d'interface utilisateur basé sur le Web. Il permet entre autre de créer des maquettes de sites web, ce qui 
+                                m'a permis de penser au design de l'application avant de la coder.
+                            </p>
+                        </div>
+                        <div class="my-auto">
+                            <img src="../../ressources/img/figmastage.png" class="shadow-md" alt="Image du plan générale de la maquette du site sur Figma">
+                            <p>Plan générale de la maquette du site sur Figma</p> 
+                        </div>
+                        <div class="col-span-2">
+                            <h3 class="font-bold text-lg mb-3">Apprentissages techniques et humains</h3>
+                            <p class="w-full text-justify">
+                                Ce projet m'a permis d'acquérir une maîtrise de plusieurs technologies tout en apprenant comment travailler avec des 
+                                personnes en dehors du domaine de l'informatique.
+                            </p>
+                            <div class="flex gap-10 mt-3">
+                                <div>
+                                    <p class="w-full text-justify">
+                                        D'un point de vue technique, j'ai appris à :
+                                    </p>
+                                    <ul class="list-disc ps-[20px] my-[16px] text-justify">
+                                        <li>Créer un back-end en Node.js.</li>
+                                        <li>Créer des maquettes de site web sur Figma.</li>
+                                    </ul>
+                                </div>
+                                <div>
+                                    <p class="w-full text-justify">
+                                        D'un point de vue humain, j'ai appris à :
+                                    </p>
+                                    <ul class="list-disc ps-[20px] my-[16px] text-justify">
+                                        <li>Travailler en autonomie sur un projet de longue durée.</li>
+                                        <li>Communiquer avec des personnes en dehors du domaine de l'informatique.</li>
+                                    </ul>
+                                </div> 
+                            </div>
+                            <p class="w-full text-justify">
+                                Pour conclure, ce projet a été l'occasion de tirer des enseignements importants sur ma manière de travailler. 
+                                Avec le recul, je réalise que j'aurais pu concevoir un projet plus abouti et complet. 
+                                Mon manque d'expérience dans le travail avec une équipe non spécialisée en informatique m'a conduit à me 
+                                limiter aux tâches qui m'étaient spécifiquement demandées.
+                                Cette expérience m'a permis de prendre conscience d'un point clé : j'aurais dû faire preuve de davantage de proactivité. 
+                                En effet, leurs connaissances limitées dans le domaine de l'informatique les empêchaient parfois d'imaginer 
+                                tout ce qui était techniquement réalisable. Si j'avais été plus force de proposition, 
+                                j'aurais pu les guider vers des fonctionnalités supplémentaires et des solutions plus optimisées.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+    </main>
+    <footer class="mb-3">
+        <H3>Website by Soulard Lény</H3>
+    </footer>
+</body>
+</html>

@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="../../ressources/css/style.css">
+    <title>Jeu de comabt</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="icon" type="image/png" href="../../ressources/img/ls.png">
+    <meta name="viewport" content="width=device-width user-scalable=no, initial-scale=1.0, maximum-scale=1.0"/>
+</head>
+<body>
+    <header>
+        <div>
+            <a href="../../index.html" >
+                <img src="../../ressources/img/ls.png" alt="logo" id="logo">
+            </a>
+            <nav>
+                <button class="nav-items cursor-pointer" type="button" onclick="window.location.href='../profile/profile.html'">
+                    <img src="../../ressources/img/utilisateur.png" alt="">
+                    Profil
+                </button>
+                <button  class="nav-items cursor-pointer" type="button" onclick="window.location.href='projets.html'">
+                    <img src="../../ressources/img/projet.png" alt="">
+                    Mes projets
+                </button>
+                <button class="nav-items cursor-pointer" type="button" onclick="window.location.href='../profile/cv.html'">
+                    <img src="../../ressources/img/embauche.png" alt="">
+                    CV
+                </button>
+                <button class="nav-items cursor-pointer" type="button" onclick="window.location.href='../profile/competence.html'">
+                    <img src="../../ressources/img/apprentissage.png" alt="">
+                    Portfolio d'apprentissage
+                </button>
+            </nav>
+        </div>
+    </header>
+    <main class="flex-column">
+        <div class="flex">
+            <aside> 
+                <a class="pt-[6px] pb-[3px] pe-[5px]" href="https://www.linkedin.com/in/leny-soulard" target="_blank"><img src="../../ressources/img/linkedin.png" alt="Linkedin"></a>
+                <a class="pt-[6px] pb-[3px] pe-[5px]" href="mailto:leny.soulard@etu.umontpellier.fr"><img src="../../ressources/img/mailn.png" alt="Mail"></a>
+                <a class="pt-[6px] pb-[3px] pe-[5px]" href="https://gitlabinfo.iutmontp.univ-montp2.fr/soulardl" target="_blank"><img src="../../ressources/img/gitlab.png" alt="Gitlab"></a>
+            </aside>
+            <section class="section_pageprojet">
+                <div class="flex flex-wrap justify-between">
+                    <div class="w-full mb-4 md:mb-auto md:w-1/2">
+                        <h3 class="font-bold text-lg mb-3">Jeu de comabt sur Unity : </h3>
+                        <div>
+                            <p class="text-justify">
+                                Etant joueur de jeux-vidéo avec une certaine attache pour les jeux de combats de type "plateformer" et étant en 
+                                étude dans le domaine de l'informatique, je me suis demandé comment les jeux-vidéo était conçu.
+                                A partir de cette question, j'ai recherché les outils permettant de concevoir des jeux.
+                                J'ai donc décidé, après mon exploration dans le vaste monde du développement de jeux, d'utiliser le moteur 
+                                de jeu <a class="default-link" href="https://unity.com/fr" >Unity</a>.
+                            <br>
+                            <br>
+                                A l'aide de tutoriels et d'IA comme "ChatGPT", je me suis donc lancé dans le projet de réaliser un petit 
+                                jeu de combat.
+                                Pour cela, j'ai donc décidé de réaliser une premiere version pour me familiariser avec le logiciel.
+                                Puis, je ferais une version plus terminé visuellement et avec un code plus propre.
+                                A l'heure actuelle je pense avoir fini la première version et je commencerai donc la version finale des que possible.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="w-full md:w-5/12 my-auto">
+                        <img class="boxshadow" src="../../ressources/img/fightMenu.png" alt="Image menu fighting game">
+                        <p class="w-fit">Les parametres de debut de partie</p>
+                    </div>
+                </div>
+                <div class="w-full md:w-10/12 mt-10 mx-auto">
+                    <img class="boxshadow" src="../../ressources/img/fight.png" alt="Image fighting game">
+                    <p class="w-fit">Une partie du jeu</p>
+                </div>
+            </section>
+        </div>
+        <section id="section-competence">
+            <h3 class="font-bold text-lg mb-3">Les compétences mobilisés dans ce projet :</h3>
+            <div id="competence_column">
+                <div id="competence_row">
+                    <div class="competence-items shadow">
+                        <h4 class="font-bold my-[21px]">AC 2 Elaborer des conceptions simples</h4>
+                        <h5 class="my-[20px]">Niveau de maitrise : Acquis</h5>
+                        <p class="my-3">Ex : réaliser une maquette de l'affichage pour concevoir et avoir un aperçu simple de l'application. </p>
+                    </div>
+                    <div class="competence-items shadow">
+                        <h4 class="font-bold my-[21px]">AC 1 Implémenter des conceptions simples</h4>
+                        <h5 class="my-[20px]">Niveau de maitrise : Acquis</h5>
+                        <p class="my-3">Ex : réaliser une maquette de l'affichage pour concevoir et avoir un aperçu simple de l'application. </p>
+                    </div>
+                    <div class="competence-items shadow">
+                        <h4 class="font-bold my-[21px]">AC 4 Vérifier et valider la qualité de l'application par les tests</h4>
+                        <h5 class="my-[20px]">Niveau de maitrise : Acquis</h5>
+                        <p class="my-3">Nous avons réalisé une batterie de tests pour chaque fonctionnalité du jeux. </p>
+                    </div>
+                    <div class="competence-items shadow">
+                        <h4 class="font-bold my-[21px]">AC 3 Formaliser et mettre en œuvre des outils mathématiques pour l'informatique</h4>
+                        <h5 class="my-[20px]">Niveau de maitrise : Acquis</h5>
+                        <p class="my-3">Nous avons utilisé des outils mathematiques pour le calcul du plus court chemin entre 2 destinations. </p>
+                    </div>
+                    <div class="competence-items shadow">
+                        <h4 class="font-bold my-[21px]">AC 4 Acquérir les compétences interpersonnelles pour travailler en équipe</h4>
+                        <h5 class="my-[20px]">Niveau de maitrise : Acquis</h5>
+                        <p class="my-3">Nous avons beaucoup communiqué et collaboré ensemble pour réaliser ce projet.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer class="mb-3">
+        <H3>Website by Soulard Lény</H3>
+    </footer>
+</body>
+</html>

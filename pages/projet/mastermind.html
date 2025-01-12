@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="../../ressources/css/style.css">
+    <title>Le MasterMind</title>
+    <link rel="icon" type="image/png" href="../../ressources/img/ls.png">
+    <meta name="viewport" content="width=device-width user-scalable=no, initial-scale=1.0, maximum-scale=1.0"/>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body>
+    <header>
+        <div>
+            <a href="../../index.html" >
+                <img src="../../ressources/img/ls.png" alt="logo" id="logo">
+            </a>
+            <nav>
+                <button class="nav-items cursor-pointer" type="button" onclick="window.location.href='../profile/profile.html'">
+                    <img src="../../ressources/img/utilisateur.png" alt="">
+                    Profil
+                </button>
+                <button  class="nav-items cursor-pointer" type="button" onclick="window.location.href='projets.html'">
+                    <img src="../../ressources/img/projet.png" alt="">
+                    Mes projets
+                </button>
+                <button class="nav-items cursor-pointer" type="button" onclick="window.location.href='../profile/cv.html'">
+                    <img src="../../ressources/img/embauche.png" alt="">
+                    CV
+                </button>
+                <button class="nav-items cursor-pointer" type="button" onclick="window.location.href='../profile/competence.html'">
+                    <img src="../../ressources/img/apprentissage.png" alt="">
+                    Portfolio d'apprentissage
+                </button>
+            </nav>
+        </div>
+    </header>
+    <main class="flex-column">
+        <div class="flex">
+            <aside>
+                <a class="pt-[6px] pb-[3px] pe-[5px]" href="https://www.linkedin.com/in/leny-soulard" target="_blank"><img src="../../ressources/img/linkedin.png" alt="Linkedin"></a>
+                <a class="pt-[6px] pb-[3px] pe-[5px]" href="mailto:leny.soulard@etu.umontpellier.fr"><img src="../../ressources/img/mailn.png" alt="Mail"></a>
+                <a class="pt-[6px] pb-[3px] pe-[5px]" href="https://gitlabinfo.iutmontp.univ-montp2.fr/soulardl" target="_blank"><img src="../../ressources/img/gitlab.png" alt="Gitlab"></a>
+            </aside>
+            <section class="section_pageprojet">
+                <div class="flex flex-wrap justify-between">
+                    <div class="w-full mb-4 md:mb-auto md:w-1/2">
+                        <h3 class="font-bold text-lg mb-3">Le MasterMind : </h3>
+                        <div>
+                            <p class="text-justify">
+                                Le jeu du MasterMind est un jeu très connu qui se joue a 2 joueurs, un décodeur et un codeur. Le but pour le joueur décodeur
+                                est de trouver un code a 4 couleur en un mininmum de manche et le joueur codeur doit choisir un code et donné des indications
+                                sur les code proposé par le décodeur.
+                                Ce projet, qui est le premier que j'ai fais dans le cadre de mon BUT, avait pour but de réaliser une version numérique de ce jeu.
+                        
+                            <br>
+                            <br>
+                                Etant donné que ce projet était le premier que nous réalisions avec mon binome, le code a été fait
+                                de façon procédurale et l'affichage graphique était une extension proposé.
+                                Bien que ce projet n'a pas été concu avec un code propre et de maniere simpliste, cela m'a montré les
+                                difficultés à travailler a plusieurs sur un projet informatique.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="w-full md:w-5/12 my-auto">
+                        <img class="boxshadow" src="../../ressources/img/plateauMM.png" alt="Image plateau MasterMind">
+                        <p class="w-fit">Le plateau de jeu</p>
+                    </div>
+                </div>
+            </section>
+        </div>
+        <section id="section-competence">
+            <h3 class="font-bold text-lg mb-3">Les compétences mobilisés dans ce projet :</h3>
+            <div id="competence_column">
+                <div id="competence_row">
+                    <div class="competence-items shadow">
+                        <h4 class="font-bold my-[21px]">AC 2 Elaborer des conceptions simples</h4>
+                        <h5 class="my-[20px]">Niveau de maitrise : Acquis</h5>
+                        <p class="my-3">Ex : réaliser une maquette de l'affichage pour concevoir et avoir un aperçu simple de l'application. </p>
+                    </div>
+                    <div class="competence-items shadow">
+                        <h4 class="font-bold my-[21px]">AC 1 Implémenter des conceptions simples</h4>
+                        <h5 class="my-[20px]">Niveau de maitrise : Acquis</h5>
+                        <p class="my-3">Ex : réaliser une maquette de l'affichage pour concevoir et avoir un aperçu simple de l'application. </p>
+                    </div>
+                    <div class="competence-items shadow">
+                        <h4 class="font-bold my-[21px]">AC 4 Vérifier et valider la qualité de l'application par les tests</h4>
+                        <h5 class="my-[20px]">Niveau de maitrise : Acquis</h5>
+                        <p class="my-3">Nous avons réalisé une batterie de tests pour chaque fonctionnalité du jeux. </p>
+                    </div>
+                    <div class="competence-items shadow">
+                        <h4 class="font-bold my-[21px]">AC 3 Formaliser et mettre en œuvre des outils mathématiques pour l'informatique</h4>
+                        <h5 class="my-[20px]">Niveau de maitrise : Acquis</h5>
+                        <p class="my-3">Nous avons utilisé des outils mathematiques pour le calcul du plus court chemin entre 2 destinations. </p>
+                    </div>
+                    <div class="competence-items shadow">
+                        <h4 class="font-bold my-[21px]">AC 4 Acquérir les compétences interpersonnelles pour travailler en équipe</h4>
+                        <h5 class="my-[20px]">Niveau de maitrise : Acquis</h5>
+                        <p class="my-3">Nous avons beaucoup communiqué et collaboré ensemble pour réaliser ce projet.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer class="mb-3">
+        <H3>Website by Soulard Lény</H3>
+    </footer>
+</body>
+</html>

@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="../../ressources/css/style.css">
+    <title>Stageo</title>
+    <link rel="icon" type="image/png" href="../../ressources/img/ls.png">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <meta name="viewport" content="width=device-width user-scalable=no, initial-scale=1.0, maximum-scale=1.0"/>
+</head>
+<body>
+<header>
+    <div>
+        <a href="../../index.html" >
+            <img src="../../ressources/img/ls.png" alt="logo" id="logo">
+        </a>
+        <nav>
+            <button class="nav-items cursor-pointer" type="button" onclick="window.location.href='../profile/profile.html'">
+                <img src="../../ressources/img/utilisateur.png" alt="">
+                Profil
+            </button>
+            <button  class="nav-items cursor-pointer" type="button" onclick="window.location.href='../projet/projets.html'">
+                <img src="../../ressources/img/projet.png" alt="">
+                Mes projets
+            </button>
+            <button class="nav-items cursor-pointer" type="button" onclick="window.location.href='../profile/cv.html'">
+                <img src="../../ressources/img/embauche.png" alt="">
+                CV
+            </button>
+            <button class="nav-items cursor-pointer" type="button" onclick="window.location.href='../profile/competence.html'">
+                <img src="../../ressources/img/apprentissage.png" alt="">
+                Portfolio d'apprentissage
+            </button>
+        </nav>
+    </div>
+</header>
+<main class="flex-column">
+    <div class="flex">
+        <aside>
+            <a class="pt-[6px] pb-[3px] pe-[5px]" href="https://www.linkedin.com/in/leny-soulard" target="_blank"><img src="../../ressources/img/linkedin.png" alt="Linkedin"></a>
+            <a class="pt-[6px] pb-[3px] pe-[5px]" href="mailto:leny.soulard@etu.umontpellier.fr"><img src="../../ressources/img/mailn.png" alt="Mail"></a>
+            <a class="pt-[6px] pb-[3px] pe-[5px]" href="https://gitlabinfo.iutmontp.univ-montp2.fr/soulardl" target="_blank"><img src="../../ressources/img/gitlab.png" alt="Gitlab"></a>
+        </aside>
+        <section class="section_pageprojet">
+            <div class="flex flex-wrap justify-between">
+                <div class="w-full mb-4 md:mb-auto md:w-5/12">
+                    <h3 class="font-bold text-lg mb-3">Stageo :</h3>
+                    <div>
+                        <p class="text-justify">
+                            Stageo est un site internet qui rentre dans le cadre de mon BUT. Ce projet est la pour concevoir une nouvelle façon de gerer
+                            les stages des étudiants au sein du departement informatique de mon IUT. La demande vient du responsable des stages qui trouvait que
+                            la methode utilisé pour la gestion des stages était depassé et fastidieuse. On a donc du réaliser un site permettant de gerer et aussi
+                            de trouver des stages en affichant des offres des stages que les entreprises peuvent poster. Le but ultime serai que la majorité des
+                            étudiants passent par notre site afin de trouver un stage.
+                        <br>
+                        <br>
+                            Ce projet était mon premier gros projet en developpement web et surtout avec l'utilisation de php qui nous a permis de réaliser toutes les
+                            fonctionnalité dur site. J'ai aussi experimenté pour la première fois le javascript afin de rendre l'experience utilisateur meilleur et plus
+                            dynamique.
+                            Ce projet était en équipe de 6 et nous devions travailler suivant les methodes agiles (Scrum plus particulierement), ce qui en fait aussi mon
+                            premier projet avec une équipe de plusieurs personnes et en utilisant les méthodes agiles.
+                        </p>
+                    </div>
+                </div>
+                <div class="w-full md:w-6/12 my-auto">
+                    <img class="boxshadow" src="../../ressources/img/stageoconvention.png" alt="Image setup Aventuriers du rail">
+                    <p class="w-fit">La convention d'un étudiant</p>
+                </div>
+            </div>
+            <div class="w-full md:w-10/12 mt-10 mx-auto">
+                <img class="boxshadow" src="../../ressources/img/imagestageo.png" alt="Image plateau Aventurier du Rails">
+                <p class="w-fit">L'accueil du site</p>
+            </div>
+        </section>
+    </div>
+    <section id="section-competence">
+        <h3 class="font-bold text-lg mb-3">Les compétences mobilisés dans ce projet :</h3>
+        <div id="competence_column">
+            <div id="competence_row">
+                <div class="competence-items shadow">
+                    <h4 class="font-bold my-[21px]">AC 2 Appliquer des principes d'accessibilité et d'ergonomie</h4>
+                    <h5 class="my-[20px]">Niveau de maitrise : Acquis</h5>
+                    <p class="my-3">Nous avons rendu le site accessible sur téléphone en restant ergonomique</p>
+                </div>
+                <div class="competence-items shadow">
+                    <h4 class="font-bold my-[21px]">AC 1 Élaborer et implémenter les spécifications fonctionnelles et non
+                        fonctionnelles à partir des exigences</h4>
+                    <h5 class="my-[20px]">Niveau de maitrise : Acquis</h5>
+                    <p class="my-3">Nous avons réaliser les differentes foncionnalité suivant les demandes du client.</p>
+                </div>
+                <div class="competence-items shadow">
+                    <h4 class="font-bold my-[21px]">AC 3 Comprendre les enjeux et moyens de sécurisation des données et du code</h4>
+                    <h5 class="my-[20px]">Niveau de maitrise : Acquis</h5>
+                    <p class="my-3">Nous avons fait en sorte que notre site ne soit pas impacté par des injections ou le respect du RGPD.</p>
+                </div>
+                <div class="competence-items shadow">
+                    <h4 class="font-bold my-[21px]">AC 3 Mobiliser les compétences interpersonnelles pour intégrer une équipe informatique</h4>
+                    <h5 class="my-[20px]">Niveau de maitrise : Acquis</h5>
+                    <p class="my-3">Nous nous somme beaucoup entraidé tout en essayant d'emettre des retours constructif et nous avons du gerer la pression des delais et des problemes inattendus.  </p>
+                </div>
+                <div class="competence-items shadow">
+                    <h4 class="font-bold my-[21px]">AC 4 Rendre compte de son activité professionnelle</h4>
+                    <h5 class="my-[20px]">Niveau de maitrise : Acquis</h5>
+                    <p class="my-3">Nous faisions régulierement des petites réunion a fin de savoir le travail effectué par chacun et ce qu'on devait faire ensuite.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+</main>
+<footer class="mb-3">
+    <H3>Website by Soulard Lény</H3>
+</footer>
+</body>
+</html>

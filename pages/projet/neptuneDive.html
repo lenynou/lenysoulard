@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="../../ressources/css/style.css">
+    <title>NeptuneDive</title>
+    <link rel="icon" type="image/png" href="../../ressources/img/ls.png">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <meta name="viewport" content="width=device-width user-scalable=no, initial-scale=1.0, maximum-scale=1.0"/>
+</head>
+<body>
+    <header>
+        <div>
+            <a href="../../index.html" >
+                <img src="../../ressources/img/ls.png" alt="logo" id="logo">
+            </a>
+            <nav>
+                <button class="nav-items cursor-pointer" type="button" onclick="window.location.href='../profile/profile.html'">
+                    <img src="../../ressources/img/utilisateur.png" alt="">
+                    Profil
+                </button>
+                <button  class="nav-items cursor-pointer" type="button" onclick="window.location.href='projets.html'">
+                    <img src="../../ressources/img/projet.png" alt="">
+                    Mes projets
+                </button>
+                <button class="nav-items cursor-pointer" type="button" onclick="window.location.href='../profile/cv.html'">
+                    <img src="../../ressources/img/embauche.png" alt="">
+                    CV
+                </button>
+                <button class="nav-items cursor-pointer" type="button" onclick="window.location.href='../profile/competence.html'">
+                    <img src="../../ressources/img/apprentissage.png" alt="">
+                    Portfolio d'apprentissage
+                </button>
+            </nav>
+        </div>
+    </header>
+    <main class="flex-column">
+        <div class="flex">
+            <aside>
+                <a class="pt-[6px] pb-[3px] pe-[5px]" href="https://www.linkedin.com/in/leny-soulard" target="_blank"><img src="../../ressources/img/linkedin.png" alt="Linkedin"></a>
+                <a class="pt-[6px] pb-[3px] pe-[5px]" href="mailto:leny.soulard@etu.umontpellier.fr"><img src="../../ressources/img/mailn.png" alt="Mail"></a>
+                <a class="pt-[6px] pb-[3px] pe-[5px]" href="https://gitlabinfo.iutmontp.univ-montp2.fr/soulardl" target="_blank"><img src="../../ressources/img/gitlab.png" alt="Gitlab"></a>
+            </aside>
+            <section class="section_pageprojet">
+                <div>
+                    <div class="main-text grid grid-cols-2 row-auto gap-10">
+                        <div class="w-full ">
+                            <h3 class="font-bold text-lg mb-3">NeptuneDive</h3>
+                        <p class="w-full text-justify">
+                            Le projet NeptuneDive a été réalisé dans le cadre de ma troisième année de formation, au cours du premier semestre, 
+                            avec un rythme de travail de deux semaines par mois. L'objectif principal était de développer un site web en mode SaaS 
+                            pour les clubs de plongée. Un site SaaS (Software as a Service) permet à chaque club de se connecter à une plateforme 
+                            unique tout en disposant de sa propre base de données et de ses propres données.
+                        </p>
+                        </div>
+                        <div>
+                            <h3 class="font-bold text-lg mb-3">Objectifs du projet</h3>
+                            <p class="w-full text-justify">
+                                Le site a été conçu pour répondre à des besoins concrets exprimés par un club de plongée. Ces besoins incluaient :
+                            </p>
+                            <ul class="list-disc ps-[40px] my-[16px] text-justify">
+                                <li>La gestion des sorties de plongée.</li>
+                                <li>La gestion des fiches de sécurité.</li>
+                                <li>La gestion des plongeurs et de leurs fiches de suivi.</li>
+                            </ul>
+                            <p class="w-full text-justify">
+                                Ce projet visait à centraliser ces fonctionnalités dans un outil unique, afin de simplifier et d'optimiser les opérations du club.
+                            </p>
+                        </div>
+                        <div class="col-span-2 w-2/3 mx-auto">
+                            <img src="../../ressources/img/accueilSiteSae.png" alt="Image accueil NeptuneDive">
+                            <p class="w-2/3">La page d'accueil de NeptuneDive</p> 
+                        </div>
+                        <div>
+                            <h3 class="font-bold text-lg mb-3">Organisation et technologies utilisées</h3>
+                            <p class="w-full text-justify">
+                                Nous avons réalisé ce projet en équipe de quatre personnes, en adoptant une méthode agile pour gérer le développement. 
+                                Une grande liberté technologique nous a été accordée, et nous avons choisi d'utiliser :
+                            </p>
+                            <ul class="list-disc ps-[40px] my-[16px] text-justify">
+                                <li>Syfony pour le back-end.</li>
+                                <li>React pour le front-end.</li>
+                            </ul>
+                            <p class="w-full text-justify">
+                                C'était ma première expérience avec React, ce qui m'a permis de découvrir une nouvelle approche pour le développement front-end dans un contexte de projet d'envergure.
+                            </p>
+                        </div>
+                        <div>
+                            <h3 class="font-bold text-lg mb-3">Ma participation</h3>
+                            <p class="w-full text-justify">
+                                Dans le cadre de ce projet, mes contributions principales ont été :
+                            </p>
+                            <ul class="list-disc ps-[40px] my-[16px] text-justify">
+                                <li>Le développement de la fonctionnalité d'importation des sorties depuis une application mobile appelée Spond.</li>
+                                <li>La gestion des fiches de sécurité.</li>
+                                <li>La gestion du système des fiches de suivi des plongeurs.</li>
+                            </ul>
+                            <p class="w-full text-justify">
+                                Ces tâches m'ont permis de travailler sur des aspects variés et de renforcer mes compétences en développement.
+                            </p>
+                        </div>
+                        <div class="col-span-2 w-2/3 mx-auto">
+                            <img src="../../ressources/img/importSpondSae.png" alt="Image accueil NeptuneDive">
+                            <p class="w-2/3">La page pour inporter les sorties depuis Spond</p> 
+                        </div>
+                        <div class="col-span-2">
+                            <h3 class="font-bold text-lg mb-3">Apprentissages techniques et humains</h3>
+                            <p class="w-full text-justify">
+                                Ce projet m'a permis d'acquérir une maîtrise de plusieurs technologies tout en développant des compétences humaines essentielles.
+                            </p>
+                            <div class="flex gap-10 mt-3">
+                               <div>
+                                <p class="w-full text-justify">
+                                    D'un point de vue technique :
+                                </p>
+                                <ul class="list-disc ps-[20px] my-[16px] text-justify">
+                                    <li>Découvrir et maîtriser React, ainsi que plusieurs de ses bibliothèques, dans un projet complexe.</li>
+                                    <li>Comprendre les spécificités et les défis liés à la création d'un site web en mode SaaS.</li>
+                                </ul>
+                            </div>
+                            <div>
+                                <p class="w-full text-justify">
+                                    D'un point de vue humain:
+                                </p>
+                                <ul class="list-disc ps-[20px] my-[16px] text-justify">
+                                    <li>J'ai découvert les difficultés du travail en équipe sur une période prolongée et appris à surmonter ces obstacles.</li>
+                                    <li>Le projet a été testé par un client réel, ce qui représentait une première dans le cadre de ma formation (en dehors des stages).</li>
+                                </ul>
+                            </div> 
+                            </div>
+                            
+                        </div>
+                    
+                    </div>
+                
+                </div>
+                
+            </section>
+        </div>
+    </main>
+    <footer class="mb-3">
+        <H3>Website by Soulard Lény</H3>
+    </footer>
+</body>
+</html>
